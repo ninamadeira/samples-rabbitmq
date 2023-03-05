@@ -6,10 +6,9 @@ import org.springframework.amqp.core.DirectExchange;
 import org.springframework.amqp.core.Queue;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-
-import static br.com.madeira.producer.constants.RabbitMQConstante.EXG_NAME_LOGISTICS;
-import static br.com.madeira.producer.constants.RabbitMQConstante.QUEUE_ADDRESS_LOG;
-import static br.com.madeira.producer.constants.RabbitMQConstante.RK_ADDRESS_LOG;
+import static constants.RabbitMQConstants.EXG_NAME_LOGISTICS;
+import static constants.RabbitMQConstants.QUEUE_ADDRESS_LOG;
+import static constants.RabbitMQConstants.RK_ADDRESS_LOG;
 
 @Configuration
 public class RabbitMQConfig {

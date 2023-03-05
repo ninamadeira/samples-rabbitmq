@@ -1,9 +1,9 @@
 package br.com.madeira.producer.controllers;
 
-import br.com.madeira.producer.dto.AddressDTO;
+
 import br.com.madeira.producer.services.AddressService;
+import dtos.AddressDTO;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
